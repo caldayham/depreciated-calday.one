@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
+import TitledImage from "../components/TitledImage";
 import {
   PageDivider,
   PrimaryContainer,
@@ -52,74 +53,22 @@ const HomePage = () => {
           </p>
         </ToggleCollapseBody>
       </ToggleCollapse>
+
       <PageDivider />
 
       <SubTitle>Introduction</SubTitle>
-      <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-        <img
-          src="/image-assets/mum-dad-cal.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
-        <img
-          src="/image-assets/dad-cal.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
-        <img
-          src="/image-assets/cal-fynn.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
-        <img
-          src="/image-assets/baby-chick.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
-        <img
-          src="/image-assets/cal-rattlesnake-cooper.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
-        <img
-          src="/image-assets/fam-at-beach.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
-        <img
-          src="/image-assets/cal-felix.jpg"
-          alt="cal day ham"
-          style={{
-            width: "200px",
-            paddingBottom: "20px",
-            objectFit: "contain",
-          }}
-        />
+      <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", paddingBottom: "10px" }}>
+        <TitledImage imgLink={"/image-assets/mum-dad-cal.jpg"} title={"2001"} />
+        <TitledImage imgLink={"/image-assets/dad-cal.jpg"} title={"2003"} />
+        <TitledImage imgLink={"/image-assets/cal-fynn.jpg"} title={"2010"} />
+        <TitledImage imgLink={"/image-assets/baby-chick.jpg"} title={"2013"} />
+        <TitledImage imgLink={"/image-assets/cal-rattlesnake-cooper.jpg"} title={"2015"} />
+        <TitledImage imgLink={"/image-assets/fam-at-beach.jpg"} title={"2019"} />
+        <TitledImage imgLink={"/image-assets/cal-felix.jpg"} title={"2022"} />
       </div>
+
+      <PageDivider style={{marginBottom: "20px"}}/>
+
       <p>Hi, my name is Cal, short for Callum Day Ham.</p>
       <p style={{ paddingBottom: "20px" }}>Thank you for visiting.</p>
       <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
