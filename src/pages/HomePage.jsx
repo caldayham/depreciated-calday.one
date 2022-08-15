@@ -137,12 +137,14 @@ const HomePage = () => {
           health.
         </p>
         <p>
-          <b>Quick struggles history: </b> I have worked with depression since I
-          was 12, I have dipped low but I find many high points in life. On the
-          whole I very much enjoy life. Like many I have struggled with porn
-          adiction. I will speak more about this <u>here</u> but the short is:
-          just don't watch that shit, it's bad drugs, it duls and wastes, sex
-          and masturbation have my full support though :p
+          <b>Quick struggles history: </b> I am very greateful to have found and been expose to so many 
+          amazing people and subjects, although for the majority of my life I have struggled very deeply 
+          with the question of purpose. Not in a social, workplace, or internal light, but 
+          in the sense of being. This used to push me fairly low, nearly to choosing the alternative.
+          In recent years I still find myself discussing such thoughts but have adopted an actionable optimism
+          perspective, 'life has purpose because if it doesn't.' This is one of the primary reasons for my obssessive 
+          drive for understanding. On the whole I very much enjoy life. Like many I have struggled with adiction. I will speak more about this <u>here</u>. 
+          Thankfully as of early 2021 I no longer rely on such vices.
         </p>
         <p>
           <b>My values:</b> understanding, efficiency, action, optimisim,

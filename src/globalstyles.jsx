@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const PrimaryContainer = styled.div`
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   padding: 20px;
   margin-top: 80px;
+  padding-bottom: 160px;
 `;
 
 const PrimaryLink = styled(Link)`
