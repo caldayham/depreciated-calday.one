@@ -61,9 +61,9 @@ const HomePage = () => {
         <TitledImage imgLink={"/image-assets/mum-dad-cal.jpg"} title={"2001"} />
         <TitledImage imgLink={"/image-assets/dad-cal.jpg"} title={"2003"} />
         <TitledImage imgLink={"/image-assets/cal-fynn.jpg"} title={"2010"} />
-        <TitledImage imgLink={"/image-assets/baby-chick.jpg"} title={"2013"} />
-        <TitledImage imgLink={"/image-assets/cal-rattlesnake-cooper.jpg"} title={"2015"} />
-        <TitledImage imgLink={"/image-assets/fam-at-beach.jpg"} title={"2019"} />
+        <TitledImage imgLink={"/image-assets/baby-chick.jpg"} title={"2014"} />
+        <TitledImage imgLink={"/image-assets/cal-rattlesnake-cooper.jpg"} title={"2017"} />
+        <TitledImage imgLink={"/image-assets/fam-at-beach.jpg"} title={"2020"} />
         <TitledImage imgLink={"/image-assets/cal-felix.jpg"} title={"2022"} />
       </div>
 
@@ -73,31 +73,40 @@ const HomePage = () => {
       <p style={{ paddingBottom: "20px" }}>Thank you for visiting.</p>
       <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
         <p>
-          <b>Quick location history: </b> born in Guelph Ontario, Canada, moved
+          <b>Quick location history: </b> 
+          <br />
+          born in Guelph Ontario, Canada, moved
           to California when I was one, moved to Minnesota when I was 17, I am
           now back in California.
         </p>
         <p>
-          <b>Quick interests history: </b> as a baby / child, animals
-          (especially bugs), as a young adult animals but often in the context
-          of farming, also welding and weight lifting. In university surgery was
-          the interest, and various athletic endevours. Now I am interesed in
-          manufacturing, business (scaled problem solving), leadership, and
-          health.
+          <b>Quick interests history: </b>
+          <br />
+          As a baby / child I was facinated by animals, 
+          especially bugs. As a young adult that interest in animals stayed but often in the context
+          of farming, I also enjoyed welding and weight lifting. In university, surgery was
+          the interest, and various athletic endevours. As of late I am interesed in
+          manufacturing, business (scaled problem solving), leadership (building an effective team), and physical
+          health and ability.
         </p>
         <p>
-          <b>Quick struggles history: </b> I am very greateful to have found and been expose to so many 
+          <b>Quick struggles history: </b> 
+          <br />
+          I am very greateful to have found and been exposed to many 
           amazing people and subjects, although for the majority of my life I have struggled very deeply 
           with the question of purpose. Not in a social, workplace, or internal light, but 
           in the sense of being. This used to push me fairly low, nearly to choosing the alternative.
           In recent years I still find myself discussing such thoughts but have adopted an actionable optimism
           perspective, 'life has purpose because if it doesn't.' This is one of the primary reasons for my obssessive 
-          drive for understanding. On the whole I very much enjoy life. Like many I have struggled with adiction. I will speak more about this <u>here</u>. 
+          drive for understanding. On the whole I very much enjoy life. Like many I have also struggled with adiction. 
+          I will speak more about this <u>here</u>. 
           Thankfully as of early 2021 I no longer rely on such vices.
         </p>
         <p>
-          <b>My values:</b> understanding, efficiency, action, optimisim,
-          connection.
+          <b>My values:</b>
+          <br />
+          understanding, efficiency, action, optimisim,
+          connection
         </p>
       </div>
     </PrimaryContainer>
