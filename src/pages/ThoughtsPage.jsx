@@ -40,10 +40,13 @@ const ThoughtsPage = () => {
         </ToggleCollapseBody>
       </ToggleCollapse>
 
-      {thoughtsPosts.map((post) => {
-         <img src={post.img} />
-      })
-      }
+      {thoughtsPosts.map((post) => (
+        <div key={post.id} style={{paddingTop: "40px"}}>
+         <img src={post.img} alt={post.imgAlt}/>
+         <h3>{post.title}</h3>
+         <p>{post.content}</p>
+        </div>
+      ))}
     </PrimaryContainer>
   );
 };
