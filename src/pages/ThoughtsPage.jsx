@@ -8,6 +8,8 @@ import {
 } from "../globalstyles";
 import { changePage } from "../redux/currentPageRedux";
 
+import { thoughtsPosts } from "../posts/thoughts-posts/finance";
+
 const ThoughtsPage = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -37,6 +39,11 @@ const ThoughtsPage = () => {
           </p>
         </ToggleCollapseBody>
       </ToggleCollapse>
+
+      {thoughtsPosts.map((post) => {
+         <img src={post.img} />
+      })
+      }
     </PrimaryContainer>
   );
 };
