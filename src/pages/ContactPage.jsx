@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import {
+  PageDivider,
   PrimaryContainer,
+  SubTitle,
   ToggleCollapse,
   ToggleCollapseBody,
   ToggleCollapseTitle,
@@ -27,21 +29,44 @@ const ContactPage = () => {
       <ToggleCollapse
         onClick={() => setOpen((prev) => !prev)}
         open={open}
-        height="200px"
+        height="160px"
       >
-        <ToggleCollapseTitle open={open}>Page Thoughts</ToggleCollapseTitle>
+        <ToggleCollapseTitle open={open}>Before Contacting</ToggleCollapseTitle>
         <ToggleCollapseBody>
           <p style={{ lineHeight: "30px", paddingTop: "20px" }}>
-            Here is where I will post the best ways to contact me based on what
-            you are looking for.
-            <br /> Please use the route best specified for the type of inquiry
+            Please use the route best specified for the type of inquiry
             you plan to send, unless you think I will be amused, although the
             consequences for incorect judgement are extreme and merciless.
-            <br /> You can also click on the icons to go to external websites
+            <br /> 
+            You can also click on the icons (top right) to go to external websites
             where I maintain a presence.
+            <br/>
+            <br/>
           </p>
         </ToggleCollapseBody>
       </ToggleCollapse>
+
+      <PageDivider />
+
+      <SubTitle>Personal</SubTitle>
+      (regular) caldayham@gmail.com <br/>
+      text (650) 521-7269 <br/>
+      <a href="https://www.linkedin.com/in/caldayham/" style={{color: "white"}} target="_blank" rel="noreferrer">LinkedIn DM</a>
+      <br />
+      (secure *must be <u>signed</u>*) cal@caldayham.com 
+
+
+      <SubTitle>Print Scientific Business</SubTitle>
+      cal@printscientific.com <br/>
+      support@printscientific.com 
+      <SubTitle>Ledges Business</SubTitle>
+      cal@ledges.io <br/>
+      support@ledges.io
+      <SubTitle>FP Capital & Marus Group Business</SubTitle>
+      cal@marusgroup.com <br/>
+      support@marusgroup.com
+      <SubTitle>Other Business</SubTitle>
+      use one of the personal routes
     </PrimaryContainer>
   );
 };

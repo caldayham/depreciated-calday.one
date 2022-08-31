@@ -93,12 +93,11 @@ const HomePage = () => {
           <b>Quick struggles history: </b> 
           <br />
           I am very greateful to have found and been exposed to many 
-          amazing people and subjects, although for the majority of my life I have struggled very deeply 
-          with the question of purpose. Not in a social, workplace, or internal light, but 
-          in the sense of being. This used to push me fairly low, nearly to choosing the alternative.
-          In recent years I still find myself discussing such thoughts but have adopted an actionable optimism
-          perspective, 'life has purpose because if it doesn't.' This is one of the primary reasons for my obssessive 
-          drive for understanding. On the whole I very much enjoy life. Like many I have also struggled with adiction. 
+          amazing people and subjects, although for the majority of my young-adult life I struggled with depression to the point of self harm.
+          In recent years I still find myself discussing such thoughts but have adopted an actionable and optimistic
+          perspective. I never want to prescribe or pass judgement on mental illness, that said, what I delt with was "solved" quite easily 
+          with perspective, understanding, and actionable optimism. You are what you believe and know. This is one of the primary reasons for my obssessive 
+          drive for understanding. On the whole I very much enjoy life. Like many I have also struggled with addiction. 
           I will speak more about this <u>here</u>. 
           Thankfully as of early 2021 I no longer rely on such vices.
         </p>
