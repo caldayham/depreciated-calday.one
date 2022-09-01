@@ -54,17 +54,23 @@ const ContactPage = () => {
       <a href="https://www.linkedin.com/in/caldayham/" style={{color: "white"}} target="_blank" rel="noreferrer">LinkedIn DM</a>
       <br />
       (secure *must be <u>signed</u>*) cal@caldayham.com 
-
+      <div style={{height: "40px"}} />
 
       <SubTitle>Print Scientific Business</SubTitle>
       cal@printscientific.com <br/>
       support@printscientific.com 
+      <div style={{height: "40px"}} />
+
       <SubTitle>Ledges Business</SubTitle>
       cal@ledges.io <br/>
       support@ledges.io
+      <div style={{height: "40px"}} />
+
       <SubTitle>FP Capital & Marus Group Business</SubTitle>
       cal@marusgroup.com <br/>
       support@marusgroup.com
+      <div style={{height: "40px"}} />
+
       <SubTitle>Other Business</SubTitle>
       use one of the personal routes
     </PrimaryContainer>
