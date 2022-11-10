@@ -12,7 +12,7 @@ import {
 } from "./styles";
 
 import LedgesSVG from "../../local-assets/ledges-svg";
-import CalDayHamLogo from "../../local-assets/caldayham-logo2";
+import LogoSVG from "../../local-assets/LogoSvg";
 import PrintSciSVG from "../../local-assets/printsci-svg";
 import { Link } from "react-router-dom";
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
@@ -65,11 +65,13 @@ const Header = () => {
           onMouseLeave={() => updateLogoFill("leave")}
           thispage="home"
         >
-          <CalDayHamLogo
-            scaleFactor="1.8"
-            style={{ width: "100%" }}
+          <LogoSVG
+            scaleFactor="1.1"
             fill={logoFill}
           />
+          <p>
+          calday.one
+          </p>
         </HeaderLink>
         <div style={{ flex: 1 }} />
       </Div1>

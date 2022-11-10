@@ -1,5 +1,5 @@
 export const thoughtsPosts = [
-    {
+/*    {
       id: 1,
       img: "/post-assets/td-finance.png",
       imgAlt: "finance",
@@ -17,5 +17,6 @@ export const thoughtsPosts = [
         summary: "",
         content: "One of the most essential things you can do for a child as they grow up is provide them oportunities to create. This seems quite obvious but allowing your children to access the tools they need to build truly amazing things can be terrifiying as a parent, I'd imagine. Table saws are scarry as fuck, I should know, my left index is slightly shorter because of them."
       },
+      */
   ];
   
