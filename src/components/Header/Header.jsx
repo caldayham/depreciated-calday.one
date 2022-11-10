@@ -15,7 +15,7 @@ import LedgesSVG from "../../local-assets/ledges-svg";
 import CalDayHamLogo from "../../local-assets/caldayham-logo2";
 import PrintSciSVG from "../../local-assets/printsci-svg";
 import { Link } from "react-router-dom";
-import AutoStoriesIcon from "@mui/icons-material/AutoStories";
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 import { useSelector } from "react-redux";
 
