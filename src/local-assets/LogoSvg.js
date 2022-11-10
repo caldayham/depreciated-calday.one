@@ -1,20 +1,26 @@
 const LogoSVG = (props) => {
 	return (
 		<svg
-			width={props.scaleFactor * 32.7}
-			height={props.scaleFactor * 26.8}
-			viewBox="0 0 327 268"
+			width={props.scaleFactor * 99.1}
+			height={props.scaleFactor * 80}
+			viewBox="0 0 991 800"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 		>
+			<g stroke={`rgb(${props.fill}, ${props.fill}, ${props.fill}`} strokeWidth={'40px'}>
 			<g fill={`rgb(${props.fill}, ${props.fill}, ${props.fill}`}>
-				<polygon points="13.9,133.5 13.7,256.3 132.1,256.3 132.1,133.5 250.4,256.3 250.4,11.3 13.7,11.3 131.9,133.5" />
+				<rect x="776" y="6" class="st0" width="209" height="788" />
+				<path d="M979,12v776H782V12H979 M991,0H770v800h221V0L991,0z" />
+				<polygon class="st0" points="391,794 391,414.9 600,632 600,794 	" />
+				<path d="M397,429.8l197,204.7V788H397V429.8 M385,400v400h221V629.6L385,400L385,400z" />
+				<polygon points="770,800 0,0 770,0 " />
+				<rect y="400" width="385" height="400" />
 			</g>
-			<g fill={`rgb(${props.fill - 100}, ${props.fill - 100}, ${props.fill - 100}`}>
-				<polygon class="st0" points="131.8,133.6 131.8,255.4 195,255.4 195,198.8 	" />
-				<rect x="250.4" y="10.9" class="st1" width="63.3" height="244.5" />
+			<g fill={`rgb(0,0,0)`}>
+				<polygon points="770,800 0,0 770,0 " />
+				<rect y="400" width="385" height="400" />
 			</g>
-
+			</g>
 		</svg>
 	);
 };

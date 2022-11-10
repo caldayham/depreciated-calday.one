@@ -66,7 +66,7 @@ const Header = () => {
           thispage="home"
         >
           <LogoSVG
-            scaleFactor="1.1"
+            scaleFactor="0.3"
             fill={logoFill}
           />
           <p style={{paddingLeft: '10px'}}>
