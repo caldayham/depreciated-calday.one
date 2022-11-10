@@ -1,0 +1,24 @@
+version: 0.2
+
+phases: 
+  install:
+    commands:
+      - echo installing Node 18.x ...
+      - curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+      - apt-get install -y nodejs
+  pre_build:
+    commands:
+      - echo installing dependencies ...
+      - npm install
+      - echo no dependencies to install.
+  build: 
+    commands:
+      - echo testing ...
+      - echo no tests set up yet.
+      - echo building ...
+      - npm run build
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: build
