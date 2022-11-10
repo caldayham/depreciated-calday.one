@@ -103,11 +103,11 @@ const Header = () => {
             }}
           />
 
-          <SocialIcons href="https://github.com/caldayham" target="_blank">
+          <SocialIcons href="https://github.com/caldayone" target="_blank">
             <AiFillGithub size="30px" />
           </SocialIcons>
           <SocialIcons
-            href="https://www.linkedin.com/in/caldayham/"
+            href="https://www.linkedin.com/in/caldayone/"
             target="_blank"
           >
             <AiFillLinkedin size="30px" />
@@ -121,7 +121,7 @@ const Header = () => {
             <LedgesSVG size="26px" fill={ledgesFill} />
           </SocialIcons>
           <SocialIcons
-            href="https://www.printscientific.com/"
+            href="https://printsci.com/"
             target="_blank"
             onMouseEnter={() => setPrintFill(255)}
             onMouseLeave={() => setPrintFill(220)}
