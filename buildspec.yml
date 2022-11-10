@@ -10,7 +10,6 @@ phases:
     commands:
       - echo installing dependencies ...
       - npm install
-      - echo no dependencies to install.
   build: 
     commands:
       - echo testing ...
