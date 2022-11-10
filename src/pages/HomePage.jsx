@@ -75,7 +75,7 @@ const HomePage = () => {
 
       <PageDivider style={{marginBottom: "20px"}}/>
 
-      <p>Hi, my name is Cal, short for Callum Day Ham.</p>
+      <p>Hi, my name is Cal, short for Callum Day Ham, calday.one, and caldayone (legal, dns, other).</p>
       <p style={{ paddingBottom: "20px" }}>Thank you for visiting.</p>
       <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
         <p>
