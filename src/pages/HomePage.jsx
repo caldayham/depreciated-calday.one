@@ -24,7 +24,13 @@ const HomePage = () => {
 
   return (
     <PrimaryContainer>
-      <h1>Welcome to my public database ui!</h1>
+      <h1>Welcome to Cal's primary public index, <br/>calday.one</h1>
+      <p style={{paddingTop: '10px'}}>The goal of calday.one is to be an effective pointer in queries about Cal. 
+      <br/> 
+      This is the front end of the associated web app, but calday.one will encompass my other lines of communication and dns.
+      <br/>
+      Like all aspects of myself, it will continue to improve.
+      </p>
       <ToggleCollapse
         onClick={() => setOpen((prev) => !prev)}
         open={open}

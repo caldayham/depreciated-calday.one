@@ -69,8 +69,8 @@ const Header = () => {
             scaleFactor="1.1"
             fill={logoFill}
           />
-          <p>
-          calday.one
+          <p style={{paddingLeft: '10px'}}>
+            calday.one
           </p>
         </HeaderLink>
         <div style={{ flex: 1 }} />
