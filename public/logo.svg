@@ -5,12 +5,18 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 </style>
-<polygon points="770,800 0,0 770,0 "/>
+<g>
+	<polygon points="14.1,6 764,6 764,785.1 	"/>
+	<path class="st0" d="M758,12v758.2L28.2,12H758 M770,0H0l770,800V0L770,0z"/>
+</g>
 <g>
 	<rect x="776" y="6" class="st0" width="209" height="788"/>
 	<path d="M979,12v776H782V12H979 M991,0H770v800h221V0L991,0z"/>
 </g>
-<rect y="400" width="385" height="400"/>
+<g>
+	<rect x="6" y="406" width="373" height="388"/>
+	<path class="st0" d="M373,412v376H12V412H373 M385,400H0v400h385V400L385,400z"/>
+</g>
 <g>
 	<polygon class="st0" points="391,794 391,414.9 600,632 600,794 	"/>
 	<path d="M397,429.8l197,204.7V788H397V429.8 M385,400v400h221V629.6L385,400L385,400z"/>
